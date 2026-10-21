@@ -22,8 +22,8 @@ For each asset, a pipeline of language-model calls (`gpt-oss-120b` and `gpt-oss-
 You don't need any API keys. The data is included.
 
 ```bash
-git clone https://github.com/PrasoonKK/ep-engine-negative-result
-cd ep-engine-negative-result
+git clone https://github.com/PrasoonKK/llm-news-agent-null-result
+cd llm-news-agent-null-result
 pip install -r requirements.txt
 python3 analysis/final_results.py   # regenerates every number in the report
 python3 analysis/power.py           # how big an edge 34 calls could detect
