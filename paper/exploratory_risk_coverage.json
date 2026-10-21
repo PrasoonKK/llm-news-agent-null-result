@@ -1,0 +1,82 @@
+{
+ "label": "EXPLORATORY - not pre-registered",
+ "seed": 2026,
+ "draws": 10000,
+ "n_all": 230,
+ "n_directional": 34,
+ "operating_point": {
+  "coverage_pct": 14.8,
+  "selective_accuracy": 38.2,
+  "observed": 38.2,
+  "perm_mean": 39.5,
+  "perm_95ci": [
+   23.5,
+   55.9
+  ],
+  "percentile": 36.8,
+  "p_at_least": 0.632
+ },
+ "by_confidence_tier_cumulative": [
+  {
+   "confidence_cutoff": ">= high",
+   "n": 5,
+   "coverage_of_directional_pct": 14.7,
+   "selective_accuracy": 40.0,
+   "observed": 40.0,
+   "perm_mean": 38.0,
+   "perm_95ci": [
+    0.0,
+    80.0
+   ],
+   "percentile": 35.7,
+   "p_at_least": 0.643
+  },
+  {
+   "confidence_cutoff": ">= medium",
+   "n": 33,
+   "coverage_of_directional_pct": 97.1,
+   "selective_accuracy": 39.4,
+   "observed": 39.4,
+   "perm_mean": 38.2,
+   "perm_95ci": [
+    36.4,
+    39.4
+   ],
+   "percentile": 37.9,
+   "p_at_least": 0.621
+  },
+  {
+   "confidence_cutoff": ">= low",
+   "n": 34,
+   "coverage_of_directional_pct": 100.0,
+   "selective_accuracy": 38.2,
+   "observed": 38.2,
+   "perm_mean": 38.2,
+   "perm_95ci": [
+    38.2,
+    38.2
+   ],
+   "percentile": 0.0,
+   "p_at_least": 1.0
+  }
+ ],
+ "tier_counts_directional": {
+  "high": 5,
+  "medium": 28,
+  "low": 1
+ },
+ "tier_accuracy_directional": {
+  "high": [
+   2,
+   5
+  ],
+  "medium": [
+   11,
+   28
+  ],
+  "low": [
+   0,
+   1
+  ]
+ }
+}

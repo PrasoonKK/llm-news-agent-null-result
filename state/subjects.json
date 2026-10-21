@@ -1,0 +1,2462 @@
+[
+  {
+    "name": "Tesla Stock",
+    "ticker": "TSLA",
+    "category": "stock",
+    "finnhub_ticker": "TSLA",
+    "sources": [
+      {
+        "id": "google_tsla",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Tesla+TSLA+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_tsla",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_tsla",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=TSLA&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_tsla",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=TSLA",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Gold",
+    "ticker": "GC=F",
+    "category": "commodity",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_gold",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=gold+price+today+spot&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_gold",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=gold+price&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_commodities",
+        "name": "Investing.com Commodities",
+        "url": "https://www.investing.com/rss/news_25.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_gcf",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=GC=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "NVIDIA Stock",
+    "ticker": "NVDA",
+    "category": "stock",
+    "finnhub_ticker": "NVDA",
+    "sources": [
+      {
+        "id": "google_nvda",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=NVIDIA+NVDA+stock+news&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_nvda",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_nvda",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=NVDA+NVIDIA&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_nvda",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=NVDA",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Bitcoin",
+    "ticker": "BTC-USD",
+    "category": "crypto",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_btc",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Bitcoin+price+forecast&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "coindesk",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_btc",
+        "name": "Reddit r/CryptoCurrency",
+        "url": "https://www.reddit.com/r/CryptoCurrency/search.rss?q=Bitcoin&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_crypto",
+        "name": "Investing.com Crypto",
+        "url": "https://www.investing.com/rss/news_301.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_btc_usd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=BTC-USD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 5,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Crude Oil",
+    "ticker": "CL=F",
+    "category": "commodity",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_oil",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=crude+oil+WTI+today&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_oil",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=crude+oil+WTI&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_commodities",
+        "name": "Investing.com Commodities",
+        "url": "https://www.investing.com/rss/news_25.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_clf",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=CL=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "S&P 500",
+    "ticker": "SPY",
+    "category": "etf",
+    "finnhub_ticker": "SPY",
+    "sources": [
+      {
+        "id": "google_spy",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=SP500+market+today+stocks&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "reddit_spy",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=SPY+S%26P500&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "investing_general",
+        "name": "Investing.com",
+        "url": "https://www.investing.com/rss/news.rss",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_spy",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=SPY",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Apple Stock",
+    "ticker": "AAPL",
+    "category": "stock",
+    "finnhub_ticker": "AAPL",
+    "sources": [
+      {
+        "id": "google_aapl",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Apple+AAPL+stock+earnings&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_aapl",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AAPL&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_aapl",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=AAPL+Apple&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_aapl",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=AAPL",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Take-Two",
+    "ticker": "TTWO",
+    "category": "stock",
+    "finnhub_ticker": "TTWO",
+    "sources": [
+      {
+        "id": "google_ttwo",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Take-Two+TTWO+stock+GTA&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_ttwo",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TTWO&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_ttwo",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=TTWO+TakeTwo&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_ttwo",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=TTWO",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Sony",
+    "ticker": "SONY",
+    "category": "stock",
+    "finnhub_ticker": "SONY",
+    "sources": [
+      {
+        "id": "google_sony",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Sony+SONY+stock+news&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_sony",
+        "name": "SEC 20-F Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SONY&type=20-F&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "global",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_sony",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=SONY+Sony&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_sony",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=SONY",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Tata Motors",
+    "ticker": "TMPV.NS",
+    "category": "stock",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_tata",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Tata+Motors+stock+NSE&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "et_markets",
+        "name": "Economic Times Markets",
+        "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "livemint",
+        "name": "Livemint Markets",
+        "url": "https://www.livemint.com/rss/markets",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "reddit_tata",
+        "name": "Reddit r/IndiaInvestments",
+        "url": "https://www.reddit.com/r/IndiaInvestments/search.rss?q=Tata+Motors&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "india",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Microsoft",
+    "ticker": "MSFT",
+    "category": "stock",
+    "finnhub_ticker": "MSFT",
+    "sources": [
+      {
+        "id": "google_msft",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Microsoft+MSFT+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_msft",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MSFT&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_msft",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=MSFT+Microsoft&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_msft",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=MSFT",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Ethereum",
+    "ticker": "ETH-USD",
+    "category": "crypto",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_eth",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Ethereum+ETH+price&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "coindesk_eth",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_eth",
+        "name": "Reddit r/CryptoCurrency",
+        "url": "https://www.reddit.com/r/CryptoCurrency/search.rss?q=Ethereum+ETH&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_crypto",
+        "name": "Investing.com Crypto",
+        "url": "https://www.investing.com/rss/news_301.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_eth_usd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=ETH-USD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 5,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "category": "stock",
+    "finnhub_ticker": "AMZN",
+    "sources": [
+      {
+        "id": "google_amzn",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Amazon+AMZN+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_amzn",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMZN&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_amzn",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=AMZN+Amazon&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_amzn",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=AMZN",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Natural Gas",
+    "ticker": "NG=F",
+    "category": "commodity",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_natgas",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=natural+gas+price+forecast&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_natgas",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=natural+gas+energy&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_commodities",
+        "name": "Investing.com Commodities",
+        "url": "https://www.investing.com/rss/news_25.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_ngf",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=NG=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Meta",
+    "ticker": "META",
+    "category": "stock",
+    "finnhub_ticker": "META",
+    "sources": [
+      {
+        "id": "google_meta",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Meta+Platforms+META+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_meta",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=META&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_meta",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=META+Meta+Facebook&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_meta",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=META",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Google",
+    "ticker": "GOOGL",
+    "category": "stock",
+    "finnhub_ticker": "GOOGL",
+    "sources": [
+      {
+        "id": "google_googl",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Google+Alphabet+GOOGL+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_googl",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GOOGL&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_googl",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=GOOGL+Google+Alphabet&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_googl",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=GOOGL",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Netflix",
+    "ticker": "NFLX",
+    "category": "stock",
+    "finnhub_ticker": "NFLX",
+    "sources": [
+      {
+        "id": "google_nflx",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Netflix+NFLX+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_nflx",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NFLX&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_nflx",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=NFLX+Netflix&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_nflx",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=NFLX",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "AMD",
+    "ticker": "AMD",
+    "category": "stock",
+    "finnhub_ticker": "AMD",
+    "sources": [
+      {
+        "id": "google_amd",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=AMD+stock+chips&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_amd",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMD&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_amd",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=AMD+chip&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_amd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=AMD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Palantir",
+    "ticker": "PLTR",
+    "category": "stock",
+    "finnhub_ticker": "PLTR",
+    "sources": [
+      {
+        "id": "google_pltr",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Palantir+PLTR+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_pltr",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PLTR&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_pltr",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=PLTR+Palantir&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_pltr",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=PLTR",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Uber",
+    "ticker": "UBER",
+    "category": "stock",
+    "finnhub_ticker": "UBER",
+    "sources": [
+      {
+        "id": "google_uber",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Uber+UBER+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_uber",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UBER&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_uber",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=UBER+Uber&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_uber",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=UBER",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Solana",
+    "ticker": "SOL-USD",
+    "category": "crypto",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_sol",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Solana+SOL+price&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "coindesk_sol",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_sol",
+        "name": "Reddit r/CryptoCurrency",
+        "url": "https://www.reddit.com/r/CryptoCurrency/search.rss?q=Solana+SOL&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_crypto",
+        "name": "Investing.com Crypto",
+        "url": "https://www.investing.com/rss/news_301.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_sol_usd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=SOL-USD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 5,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "XRP",
+    "ticker": "XRP-USD",
+    "category": "crypto",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_xrp",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=XRP+Ripple+price&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "coindesk_xrp",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_xrp",
+        "name": "Reddit r/CryptoCurrency",
+        "url": "https://www.reddit.com/r/CryptoCurrency/search.rss?q=XRP+Ripple&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_crypto",
+        "name": "Investing.com Crypto",
+        "url": "https://www.investing.com/rss/news_301.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_xrp_usd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=XRP-USD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 5,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Silver",
+    "ticker": "SI=F",
+    "category": "commodity",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_silver",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=silver+price+commodity&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_silver",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=silver+price&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_commodities",
+        "name": "Investing.com Commodities",
+        "url": "https://www.investing.com/rss/news_25.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_sif",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=SI=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Copper",
+    "ticker": "HG=F",
+    "category": "commodity",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_copper",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=copper+price+commodity&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_copper",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=copper+price+commodity&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "investing_commodities",
+        "name": "Investing.com Commodities",
+        "url": "https://www.investing.com/rss/news_25.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_hgf",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=HG=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Nasdaq",
+    "ticker": "QQQ",
+    "category": "etf",
+    "finnhub_ticker": "QQQ",
+    "sources": [
+      {
+        "id": "google_qqq",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Nasdaq+QQQ+tech+stocks&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "reddit_qqq",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=QQQ+Nasdaq&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "investing_general",
+        "name": "Investing.com",
+        "url": "https://www.investing.com/rss/news.rss",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_qqq",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=QQQ",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Dow Jones",
+    "ticker": "DIA",
+    "category": "etf",
+    "finnhub_ticker": "DIA",
+    "sources": [
+      {
+        "id": "google_dia",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Dow+Jones+DIA+market&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "reddit_dia",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=Dow+Jones+market&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "investing_general",
+        "name": "Investing.com",
+        "url": "https://www.investing.com/rss/news.rss",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_dia",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=DIA",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Reliance Industries",
+    "ticker": "RELIANCE.NS",
+    "category": "stock",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_reliance",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Reliance+Industries+stock+NSE&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "et_markets_reliance",
+        "name": "Economic Times Markets",
+        "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "reddit_reliance",
+        "name": "Reddit r/IndiaInvestments",
+        "url": "https://www.reddit.com/r/IndiaInvestments/search.rss?q=Reliance+Industries&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "india",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Infosys",
+    "ticker": "INFY",
+    "category": "stock",
+    "finnhub_ticker": "INFY",
+    "sources": [
+      {
+        "id": "google_infy",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Infosys+INFY+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "et_markets_infy",
+        "name": "Economic Times Markets",
+        "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "reddit_infy",
+        "name": "Reddit r/IndiaInvestments",
+        "url": "https://www.reddit.com/r/IndiaInvestments/search.rss?q=Infosys&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "india",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_infy",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=INFY",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "JPMorgan",
+    "ticker": "JPM",
+    "category": "stock",
+    "finnhub_ticker": "JPM",
+    "sources": [
+      {
+        "id": "google_jpm",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=JPMorgan+JPM+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_jpm",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JPM&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "yahoo_jpm",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=JPM",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "reddit_jpm",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=JPM+JPMorgan&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Coinbase",
+    "ticker": "COIN",
+    "category": "stock",
+    "finnhub_ticker": "COIN",
+    "sources": [
+      {
+        "id": "google_coin",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Coinbase+COIN+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_coin",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COIN&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "yahoo_coin",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=COIN",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "coindesk_coin",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_coin",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=COIN+Coinbase&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Spotify",
+    "ticker": "SPOT",
+    "category": "stock",
+    "finnhub_ticker": "SPOT",
+    "sources": [
+      {
+        "id": "google_spot",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Spotify+SPOT+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_spot",
+        "name": "SEC 20-F Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SPOT&type=20-F&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "yahoo_spot",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=SPOT",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "reddit_spot",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=SPOT+Spotify&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "HDFC Bank",
+    "ticker": "HDFCBANK.NS",
+    "category": "stock",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_hdfc",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=HDFC+Bank+stock+NSE&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "et_markets_hdfc",
+        "name": "Economic Times Markets",
+        "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "livemint_hdfc",
+        "name": "Livemint Markets",
+        "url": "https://www.livemint.com/rss/markets",
+        "tier": 2,
+        "region": "india",
+        "type": "news"
+      },
+      {
+        "id": "reddit_hdfc",
+        "name": "Reddit r/IndiaInvestments",
+        "url": "https://www.reddit.com/r/IndiaInvestments/search.rss?q=HDFC+Bank&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "india",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Dogecoin",
+    "ticker": "DOGE-USD",
+    "category": "crypto",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_doge",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Dogecoin+DOGE+price&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "coindesk_doge",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "yahoo_doge",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=DOGE-USD",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "investing_crypto_doge",
+        "name": "Investing.com Crypto",
+        "url": "https://www.investing.com/rss/news_301.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_doge",
+        "name": "Reddit r/CryptoCurrency",
+        "url": "https://www.reddit.com/r/CryptoCurrency/search.rss?q=Dogecoin+DOGE&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      }
+    ],
+    "check_after_days": 5,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Broadcom",
+    "ticker": "AVGO",
+    "category": "stock",
+    "finnhub_ticker": "AVGO",
+    "sources": [
+      {
+        "id": "google_avgo",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Broadcom+AVGO+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_avgo",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AVGO&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_avgo",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=AVGO&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_avgo",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=AVGO",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Oracle",
+    "ticker": "ORCL",
+    "category": "stock",
+    "finnhub_ticker": "ORCL",
+    "sources": [
+      {
+        "id": "google_orcl",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Oracle+ORCL+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_orcl",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORCL&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_orcl",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=ORCL&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_orcl",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=ORCL",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Salesforce",
+    "ticker": "CRM",
+    "category": "stock",
+    "finnhub_ticker": "CRM",
+    "sources": [
+      {
+        "id": "google_crm",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Salesforce+CRM+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_crm",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CRM&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_crm",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=CRM&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_crm",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=CRM",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Intel",
+    "ticker": "INTC",
+    "category": "stock",
+    "finnhub_ticker": "INTC",
+    "sources": [
+      {
+        "id": "google_intc",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Intel+INTC+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_intc",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=INTC&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_intc",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=INTC&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_intc",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=INTC",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Qualcomm",
+    "ticker": "QCOM",
+    "category": "stock",
+    "finnhub_ticker": "QCOM",
+    "sources": [
+      {
+        "id": "google_qcom",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Qualcomm+QCOM+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_qcom",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QCOM&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_qcom",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=QCOM&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_qcom",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=QCOM",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Disney",
+    "ticker": "DIS",
+    "category": "stock",
+    "finnhub_ticker": "DIS",
+    "sources": [
+      {
+        "id": "google_dis",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Disney+DIS+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_dis",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DIS&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_dis",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=DIS&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_dis",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=DIS",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Boeing",
+    "ticker": "BA",
+    "category": "stock",
+    "finnhub_ticker": "BA",
+    "sources": [
+      {
+        "id": "google_ba",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Boeing+BA+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_ba",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BA&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_ba",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=BA&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_ba",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=BA",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Ford",
+    "ticker": "F",
+    "category": "stock",
+    "finnhub_ticker": "F",
+    "sources": [
+      {
+        "id": "google_f",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Ford+F+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_f",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=F&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_f",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=F&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_f",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Walmart",
+    "ticker": "WMT",
+    "category": "stock",
+    "finnhub_ticker": "WMT",
+    "sources": [
+      {
+        "id": "google_wmt",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Walmart+WMT+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_wmt",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WMT&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_wmt",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=WMT&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_wmt",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=WMT",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Costco",
+    "ticker": "COST",
+    "category": "stock",
+    "finnhub_ticker": "COST",
+    "sources": [
+      {
+        "id": "google_cost",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Costco+COST+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_cost",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=COST&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_cost",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=COST&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_cost",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=COST",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Visa",
+    "ticker": "V",
+    "category": "stock",
+    "finnhub_ticker": "V",
+    "sources": [
+      {
+        "id": "google_v",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Visa+V+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_v",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=V&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_v",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=V&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_v",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=V",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Mastercard",
+    "ticker": "MA",
+    "category": "stock",
+    "finnhub_ticker": "MA",
+    "sources": [
+      {
+        "id": "google_ma",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Mastercard+MA+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_ma",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MA&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_ma",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=MA&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_ma",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=MA",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Bank of America",
+    "ticker": "BAC",
+    "category": "stock",
+    "finnhub_ticker": "BAC",
+    "sources": [
+      {
+        "id": "google_bac",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Bank+of+America+BAC+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_bac",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BAC&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_bac",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=BAC&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_bac",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=BAC",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Goldman Sachs",
+    "ticker": "GS",
+    "category": "stock",
+    "finnhub_ticker": "GS",
+    "sources": [
+      {
+        "id": "google_gs",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Goldman+Sachs+GS+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_gs",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=GS&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_gs",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=GS&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_gs",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=GS",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "ExxonMobil",
+    "ticker": "XOM",
+    "category": "stock",
+    "finnhub_ticker": "XOM",
+    "sources": [
+      {
+        "id": "google_xom",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=ExxonMobil+XOM+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_xom",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=XOM&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_xom",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=XOM&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_xom",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=XOM",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Chevron",
+    "ticker": "CVX",
+    "category": "stock",
+    "finnhub_ticker": "CVX",
+    "sources": [
+      {
+        "id": "google_cvx",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Chevron+CVX+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_cvx",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CVX&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_cvx",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=CVX&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_cvx",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=CVX",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Eli Lilly",
+    "ticker": "LLY",
+    "category": "stock",
+    "finnhub_ticker": "LLY",
+    "sources": [
+      {
+        "id": "google_lly",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Eli+Lilly+LLY+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_lly",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LLY&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_lly",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=LLY&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_lly",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=LLY",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Nike",
+    "ticker": "NKE",
+    "category": "stock",
+    "finnhub_ticker": "NKE",
+    "sources": [
+      {
+        "id": "google_nke",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Nike+NKE+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_nke",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NKE&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_nke",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=NKE&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_nke",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=NKE",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "McDonalds",
+    "ticker": "MCD",
+    "category": "stock",
+    "finnhub_ticker": "MCD",
+    "sources": [
+      {
+        "id": "google_mcd",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=McDonalds+MCD+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_mcd",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MCD&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_mcd",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=MCD&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_mcd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=MCD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Alibaba",
+    "ticker": "BABA",
+    "category": "stock",
+    "finnhub_ticker": "BABA",
+    "sources": [
+      {
+        "id": "google_baba",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Alibaba+BABA+stock&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      },
+      {
+        "id": "sec_8k_baba",
+        "name": "SEC 8-K Filings",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=BABA&type=8-K&dateb=&owner=include&count=5&search_text=&output=atom",
+        "tier": 1,
+        "region": "us",
+        "type": "filing"
+      },
+      {
+        "id": "reddit_baba",
+        "name": "Reddit r/stocks",
+        "url": "https://www.reddit.com/r/stocks/search.rss?q=BABA&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "us",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_baba",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=BABA",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Cardano",
+    "ticker": "ADA-USD",
+    "category": "crypto",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_adausd",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=Cardano+price+forecast&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "coindesk",
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_adausd",
+        "name": "Reddit r/CryptoCurrency",
+        "url": "https://www.reddit.com/r/CryptoCurrency/search.rss?q=Cardano&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_adausd",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=ADA-USD",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 5,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  },
+  {
+    "name": "Platinum",
+    "ticker": "PL=F",
+    "category": "commodity",
+    "finnhub_ticker": null,
+    "sources": [
+      {
+        "id": "google_plf",
+        "name": "Google News",
+        "url": "https://news.google.com/rss/search?q=platinum+price+today+spot&hl=en-US&gl=US&ceid=US:en",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "investing_commodities",
+        "name": "Investing.com Commodities",
+        "url": "https://www.investing.com/rss/news_25.rss",
+        "tier": 2,
+        "region": "global",
+        "type": "news"
+      },
+      {
+        "id": "reddit_plf",
+        "name": "Reddit r/investing",
+        "url": "https://www.reddit.com/r/investing/search.rss?q=platinum+price+today+spot&restrict_sr=1&sort=new&t=week&limit=10",
+        "tier": 3,
+        "region": "global",
+        "type": "social"
+      },
+      {
+        "id": "yahoo_plf",
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/rss/headline?s=PL=F",
+        "tier": 2,
+        "region": "us",
+        "type": "news"
+      }
+    ],
+    "check_after_days": 7,
+    "timeline_mode": "custom",
+    "tier": "short",
+    "active": true
+  }
+]

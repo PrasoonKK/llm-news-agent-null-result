@@ -1,0 +1,11 @@
+# versions the study scripts were run with (Python 3.12.0, macOS)
+groq==1.5.0
+yfinance==1.5.1
+feedparser==6.0.12
+requests==2.34.2
+certifi==2026.6.17
+python-dotenv==1.2.2
+fastapi==0.138.2
+uvicorn==0.49.0
+# optional, only for analysis/fig1_pdf.py and analysis/exploratory_risk_coverage.py PDF output:
+# matplotlib==3.11.2

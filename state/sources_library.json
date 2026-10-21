@@ -1,0 +1,25 @@
+{
+  "global": [
+    { "id": "reuters_business", "name": "Reuters Business", "url": "https://feeds.reuters.com/reuters/businessNews", "tier": 1, "region": "global", "type": "news" },
+    { "id": "kitco_gold", "name": "Kitco (Gold/Commodities)", "url": "https://www.kitco.com/rss/feed.html", "tier": 2, "region": "global", "type": "news" },
+    { "id": "coindesk", "name": "CoinDesk (Crypto)", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "tier": 2, "region": "global", "type": "news" }
+  ],
+  "us": [
+    { "id": "reddit_stocks", "name": "Reddit r/stocks", "url": "https://www.reddit.com/r/stocks.rss?limit=15", "tier": 3, "region": "us", "type": "social" },
+    { "id": "reddit_investing", "name": "Reddit r/investing", "url": "https://www.reddit.com/r/investing.rss?limit=15", "tier": 3, "region": "us", "type": "social" },
+    { "id": "reddit_wsb", "name": "Reddit r/WallStreetBets", "url": "https://www.reddit.com/r/wallstreetbets.rss?limit=15", "tier": 3, "region": "us", "type": "social" }
+  ],
+  "india": [
+    { "id": "et_markets", "name": "Economic Times Markets", "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", "tier": 2, "region": "india", "type": "news" },
+    { "id": "livemint", "name": "Livemint Markets", "url": "https://www.livemint.com/rss/markets", "tier": 2, "region": "india", "type": "news" },
+    { "id": "reddit_india_inv", "name": "Reddit r/IndiaInvestments", "url": "https://www.reddit.com/r/IndiaInvestments.rss?limit=15", "tier": 3, "region": "india", "type": "social" }
+  ],
+  "crypto": [
+    { "id": "reddit_crypto", "name": "Reddit r/CryptoCurrency", "url": "https://www.reddit.com/r/CryptoCurrency.rss?limit=15", "tier": 3, "region": "global", "type": "social" },
+    { "id": "reddit_bitcoin", "name": "Reddit r/Bitcoin", "url": "https://www.reddit.com/r/Bitcoin.rss?limit=15", "tier": 3, "region": "global", "type": "social" }
+  ],
+  "commodities": [
+    { "id": "reddit_gold", "name": "Reddit r/Gold", "url": "https://www.reddit.com/r/Gold.rss?limit=15", "tier": 3, "region": "global", "type": "social" },
+    { "id": "reddit_energy", "name": "Reddit r/energy", "url": "https://www.reddit.com/r/energy.rss?limit=15", "tier": 3, "region": "global", "type": "social" }
+  ]
+}
